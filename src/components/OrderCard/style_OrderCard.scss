@@ -1,0 +1,74 @@
+.orderCard{
+    margin: 2rem auto;
+
+    a{
+        color: black;
+    }
+
+    h1{
+        display: block;
+        width: 100%;
+    }
+
+    h1, p{
+        text-align: center;
+    }
+
+    .orderHeader{
+        border-bottom: 1px solid black;
+    }
+
+    .order{
+        max-width: 120rem;
+        margin: 0 auto;
+
+        table{
+            width: 100%;
+        }
+    }
+
+    .orderHeader,
+    .order {
+        width: 100%;
+        text-align: left;
+    
+        th,
+        td {
+            width: 20%;
+        }
+
+        .msg{
+            text-align: center;
+            background-color: #c0c0c0;
+            padding: 1rem 10px;
+            
+        }
+    }
+
+    .orderItem {
+        td img{
+            display: block;
+            
+        }
+
+        .ci-thumb{
+            height: 12rem;
+            background: #f5f5f5;
+
+            img{
+                max-height: 100%;
+                max-width: 100%;
+                margin: auto;
+            }
+        }
+        
+    }
+
+    .cartBtn{
+        cursor: pointer;
+    }
+
+    .linkButton{
+        color: white;
+    }
+}

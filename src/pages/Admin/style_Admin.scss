@@ -1,0 +1,172 @@
+.admin {
+  padding: 0 10px;
+
+  
+
+  .callToActions_Admin {
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+
+    ul,
+    li {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    ul {
+      li {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.something-for-size{
+  display: flex;
+  justify-content: space-around;
+
+  .current-size{
+    // display: flex;
+    font-size: 1.5rem;
+    // justify-content: space-around;
+    margin-right: 25px;
+    // margin: auto 15px;
+    max-width: 80px;
+
+    .wrap-size{
+      display: flex;
+      
+    }
+
+    .current-size-clear{
+      margin-right: 15px;
+      cursor: pointer;
+    }
+
+    .current-size-text{
+      margin-bottom: 8px;
+      // display: flex;
+      // justify-content: center;
+      // margin: auto 15px;
+    }
+
+    select{
+      margin-right: 10px;
+      max-width: 35px;
+      height: 20px;
+    }
+  }
+  
+  .plus-button{
+    margin: auto;
+    margin-bottom: 1.5rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 3rem;
+    cursor: pointer;
+    width: 5rem;
+    border: 1px solid black;
+  }
+  
+}
+
+.price{
+  margin-bottom: 10px;
+}
+
+.manageProducts {
+  h1 {
+    margin-top: 1.5rem;
+  }
+
+  .container-editQuantity{
+    width: 50%;
+
+    .wrap-editQuantity{
+      display: flex;
+      
+      .btn{
+        margin-right: 5px;
+        margin-left: 5px;
+      }
+    }
+  
+  }
+
+  .customBtn{
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+  }
+
+  // img{
+  //   max-width: 100px;
+  // }
+
+  table.results {
+    tr {
+      &:nth-child(even) {
+        background-color: #d3d3d3;
+      }
+
+      // .td-pro{
+      //   display: flex;
+      //   justify-content: space-between;
+
+      //   .td-img2{
+      //     width: 15rem;
+      //     height: 12rem;
+
+      //     .thumb2{
+      //       max-width: 100%;
+      //       max-height: 100%;
+      //     }
+      //   }
+      // }
+
+      .td-img{
+        height: 12rem;
+        width: 15rem;
+
+      .thumb {
+        max-height: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .manageProducts {
+    table {
+      width: 100%;
+
+      .results {
+        width: 100%;
+
+        tr td {
+          display: block;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          margin: auto;
+
+          // img {
+          //   display: block;
+          //   width: 100% !important;
+          // }
+        }
+      }
+    }
+  }
+}
